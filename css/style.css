@@ -2,15 +2,67 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container 
+.alert-container  {}
 
 .callout-container {
     height: 100vh;
-    background: url("../images/bg.jpg") no-repeat bottom right fixed;
+    background: url("../images/adam-jaime-dmkmrNptMpw-unsplash\).jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.quotes-container .features-container
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.quotes-container {} 
+.features-container {}
+
+/*Block-divider*/
+.block-divider {
+    height: 5px;
+    width: 75px;
+    background-color: red;
+    border: #;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: lightgrey;
+}
+.jumbotron p {
+    margin: 25px;
+    color: yellow;
+}
+
+/*Buttons*/
+.btn--cta {background-color: red;
+    border-radius: 20px;
+    width: 160px;
+
+}
+
+.btn--cta:hover  {
+    background-color: #f34646;
+}
